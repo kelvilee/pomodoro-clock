@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Pomodoro Clock</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='index.js'></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- googlefonts api -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+
+</head>
+
+<body>
+<!--          settings             -->
+<div class="jumbotron mx-auto">
+
+    <nav style="text-align: center">
+        <h1 style="color: white"> Pomodoro Clock - Freecodecamp </h1>
+    </nav>
+
+    <div class="row" id="square-cell">
+
+        <div class="square set col-6-sm" id="square-break">
+            <p id="break"> Break </p>
+
+            <span id="Bm"><button type="button" class="btn" value="break">-</button></span><span id="break-time">5</span><span id="Bp"><button type="button" class="btn" value="break">+</button></span>
+        </div>
+
+        <div class="square set col-6-sm" id="square-length">
+            <p id="length"> Length </p>
+
+            <span id="Lm"><button type="button" class="btn" value="length">-</button></span><span id="length-time">25</span><span id="Lp"><button type="button" class="btn" value="length">+</button></span>
+        </div>
+
+    </div>
+
+    <!--      end of settings          -->
+    <!--         Timer                 -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="btn-ctrl-div">
+                    <button type="button" class="btn btn-ctrl" id="pause">Pause</button>
+                    <button type="button" class="btn btn-ctrl" id="resume">Resume</button>
+                    <button type="button" class="btn btn-ctrl" id="start">Start</button>
+                </div>
+                <div class="btn-ctrl-div stop">
+                    <button type="button" class="btn btn-ctrl" id="stop">  Stop  </button>
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="circle timer" id="circle-watch">
+                    <p id="watch"> Session </p>
+                    <p id="time"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--       end of Timer            -->
+</div>
+</body>
+<!-- </html> -->
+</html>

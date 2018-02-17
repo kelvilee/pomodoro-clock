@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*         end of CSS Reset            */
+/*         Background Layout           */
+
+.jumbotron {
+
+    margin-top: 50px;
+    background-color: #242924 !important;
+
+}
+
+.mx-auto {
+
+    width: 600px;
+    height: 800px;
+
+}
+
+#circle-cell {
+
+    position: relative;
+    /*margin-left: 100px;*/
+    /*margin-right: 100px;*/
+    /*margin-top: 50px;*/
+
+
+}
+
+
+
+/*         End of Background Layout    */
+/*         Start of Timer CSS          */
+
+/*          Draw circles          */
+
+.circle {
+
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+/* .square.set:hover {
+
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    background: #3c443c;
+    border: 1px dashed #CCFF90;
+
+} */
+/* button {
+      pointer-events: none;
+} */
+.btn:focus {outline:0;}
+
+.square.set {
+
+    text-align: center;
+    width: 150px;
+    height: 100px;
+
+}
+
+.btn {
+
+    /*   background: #242924; */
+    font-size: 15px;
+    background: #242924;
+}
+.btn:hover {
+    /*   font-size: 20px; */
+    color: white;
+}
+
+.btn-ctrl {
+    color: white;
+    background-color: #242629;
+    border: 1px solid #99ccff;
+    padding: 15px 32px;
+    width: 100px;
+}
+.btn-ctrl-div {
+    margin-left: 20px;
+    margin-top: 90px;
+    padding: 15px 32px;
+
+}
+.btn-ctrl-div.stop {
+    margin-top: 10px;
+    padding: 15px 32px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+
+.square.set.col-6-m {
+
+    padding: 50px !important;
+
+}
+
+#square-break {
+
+    margin-left: 100px;
+
+}
+
+#square-length {
+
+    margin-left: 75px;
+
+}
+
+.circle.timer {
+
+    width: 290px;
+    height: 290px;
+    background-color: #242924; /*#303630;*/
+    border: 2px solid #CCFF90;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+.circle.timer:hover {
+
+    border: 3px solid #CCFF90;
+
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+/*     Edit Text layout        */
+
+p, h3, span, h1 {
+
+    color: white;
+
+}
+
+p#time {
+    font-size: 50px;
+}
+
+#Lm, #Lp, #Bp, #Bm, #break-time, #length-time {
+
+    margin: 1px 1px 2px 2px;
+    font-size: 22px;
+
+}
+
+
+#break, #length {
+
+    line-height: 50px;
+    font-size: 25px;
+
+}
+
+#watch {
+
+    line-height: 80px;
+    font-size: 35px;
+
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+/*          End of Timer CSS         */
+
+/**
+p {
+    text-align: match-parent;
+}
